@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ListenersImplementation"/>
+  </listeners>
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="testCases.TestCase_Scenario_0001">
+        <methods>
+          <include name="tear_down"/>
+          <include name="launch_application"/>
+          <include name="test_CIMBDeals_scn0001"/>
+        </methods>
+      </class> <!-- testCases.TestCase_Scenario_0001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
