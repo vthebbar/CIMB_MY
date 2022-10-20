@@ -127,7 +127,7 @@ public class ActionMethods {
 			if(DriverFactory.get_instance().get_driver().switchTo().window(handle).getTitle().equals(title)) {
 				DriverFactory.get_instance().get_driver().switchTo().window(handle);
 				//flag=true;
-				ExtentFactory.get_instance().get_extent().log(Status.FAIL, "Window switch successful, window title is:"+ title);
+				ExtentFactory.get_instance().get_extent().log(Status.PASS, "Window switch successful, window title is:"+ title);
 				break;
 			}
 		}
