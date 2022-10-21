@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="2" retried="1" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="302953" started-at="2022-10-18T14:49:15 SGT" finished-at="2022-10-18T14:54:18 SGT">
+  <suite name="Suite" duration-ms="149315" started-at="2022-10-21T09:32:27 SGT" finished-at="2022-10-21T09:34:57 SGT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="302953" started-at="2022-10-18T14:49:15 SGT" finished-at="2022-10-18T14:54:18 SGT">
+    <test name="Test" duration-ms="149315" started-at="2022-10-21T09:32:27 SGT" finished-at="2022-10-21T09:34:57 SGT">
       <class name="testCases.TestCase_Scenario_0001">
-        <test-method status="PASS" signature="start_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="start_docker_grid" is-config="true" duration-ms="20031" started-at="2022-10-18T14:49:15 SGT" finished-at="2022-10-18T14:49:35 SGT">
+        <test-method status="PASS" signature="start_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="start_docker_grid" is-config="true" duration-ms="9" started-at="2022-10-21T09:32:28 SGT" finished-at="2022-10-21T09:32:28 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start_docker_grid -->
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="launch_application" is-config="true" duration-ms="163182" started-at="2022-10-18T14:49:35 SGT" finished-at="2022-10-18T14:52:18 SGT">
+        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="launch_application" is-config="true" duration-ms="51281" started-at="2022-10-21T09:32:28 SGT" finished-at="2022-10-21T09:33:19 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method status="PASS" signature="test_CIMBDeals_scn0001()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="test_CIMBDeals_scn0001" duration-ms="62482" started-at="2022-10-18T14:52:18 SGT" finished-at="2022-10-18T14:53:21 SGT">
+        <test-method status="PASS" signature="test_CIMBDeals_scn0001()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="test_CIMBDeals_scn0001" duration-ms="34315" started-at="2022-10-21T09:33:19 SGT" finished-at="2022-10-21T09:33:53 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CIMBDeals_scn0001 -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="tear_down" is-config="true" duration-ms="1032" started-at="2022-10-18T14:53:21 SGT" finished-at="2022-10-18T14:53:22 SGT">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="tear_down" is-config="true" duration-ms="4017" started-at="2022-10-21T09:33:53 SGT" finished-at="2022-10-21T09:33:57 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="stop_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="stop_docker_grid" is-config="true" duration-ms="8070" started-at="2022-10-18T14:54:10 SGT" finished-at="2022-10-18T14:54:18 SGT">
+        <test-method status="PASS" signature="stop_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0001@6895a785]" name="stop_docker_grid" is-config="true" duration-ms="1" started-at="2022-10-21T09:34:57 SGT" finished-at="2022-10-21T09:34:57 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop_docker_grid -->
       </class> <!-- testCases.TestCase_Scenario_0001 -->
       <class name="testCases.TestCase_Scenario_0001_02">
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="launch_application" is-config="true" duration-ms="162495" started-at="2022-10-18T14:49:35 SGT" finished-at="2022-10-18T14:52:18 SGT">
+        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="launch_application" is-config="true" duration-ms="46570" started-at="2022-10-21T09:32:28 SGT" finished-at="2022-10-21T09:33:14 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method status="SKIP" signature="test_CIMBDeals_scn0001_02()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="test_CIMBDeals_scn0001_02" duration-ms="63367" retried="true" started-at="2022-10-18T14:52:18 SGT" finished-at="2022-10-18T14:53:21 SGT">
+        <test-method status="SKIP" signature="test_CIMBDeals_scn0001_02()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="test_CIMBDeals_scn0001_02" duration-ms="38920" retried="true" started-at="2022-10-21T09:33:14 SGT" finished-at="2022-10-21T09:33:53 SGT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[test_CIMBDeals_scn0001_02 : Intentionally failed assertion to check snapshot captured in report expected [false] but found [true]]]>
@@ -44,7 +44,7 @@ at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:751)
-at testCases.TestCase_Scenario_0001_02.test_CIMBDeals_scn0001_02(TestCase_Scenario_0001_02.java:33)
+at testCases.TestCase_Scenario_0001_02.test_CIMBDeals_scn0001_02(TestCase_Scenario_0001_02.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,15 +66,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CIMBDeals_scn0001_02 -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="tear_down" is-config="true" duration-ms="841" started-at="2022-10-18T14:53:21 SGT" finished-at="2022-10-18T14:53:22 SGT">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="tear_down" is-config="true" duration-ms="4384" started-at="2022-10-21T09:33:53 SGT" finished-at="2022-10-21T09:33:58 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="launch_application" is-config="true" duration-ms="12631" started-at="2022-10-18T14:53:22 SGT" finished-at="2022-10-18T14:53:35 SGT">
+        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="launch_application" is-config="true" duration-ms="34051" started-at="2022-10-21T09:33:58 SGT" finished-at="2022-10-21T09:34:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method status="FAIL" signature="test_CIMBDeals_scn0001_02()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="test_CIMBDeals_scn0001_02" duration-ms="26918" started-at="2022-10-18T14:53:35 SGT" finished-at="2022-10-18T14:54:02 SGT">
+        <test-method status="FAIL" signature="test_CIMBDeals_scn0001_02()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="test_CIMBDeals_scn0001_02" duration-ms="23585" started-at="2022-10-21T09:34:32 SGT" finished-at="2022-10-21T09:34:55 SGT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[test_CIMBDeals_scn0001_02 : Intentionally failed assertion to check snapshot captured in report expected [false] but found [true]]]>
@@ -85,7 +85,7 @@ at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:751)
-at testCases.TestCase_Scenario_0001_02.test_CIMBDeals_scn0001_02(TestCase_Scenario_0001_02.java:33)
+at testCases.TestCase_Scenario_0001_02.test_CIMBDeals_scn0001_02(TestCase_Scenario_0001_02.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,7 +107,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CIMBDeals_scn0001_02 -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="tear_down" is-config="true" duration-ms="3618" started-at="2022-10-18T14:54:06 SGT" finished-at="2022-10-18T14:54:10 SGT">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0001_02@184f6be2]" name="tear_down" is-config="true" duration-ms="871" started-at="2022-10-21T09:34:56 SGT" finished-at="2022-10-21T09:34:57 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->

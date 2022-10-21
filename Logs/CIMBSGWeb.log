@@ -1,0 +1,9 @@
+2022-10-20 17:51:49,762  INFO [TestNG-test=Test-1] MyLogger:29 - Started execution of Test case - test_CIMBDeals_scn0001
+ 2022-10-20 17:51:53,379  INFO [TestNG-test=Test-2] MyLogger:30 - Started execution of Test case - test_CIMBDeals_scn0001_02
+ 2022-10-20 17:53:22,203  INFO [TestNG-test=Test-2] MyLogger:30 - Started execution of Test case - test_CIMBDeals_scn0001_02
+ 2022-10-20 17:53:25,912  INFO [TestNG-test=Test-1] MyLogger:29 - Started execution of Test case - test_CIMBDeals_scn0001
+ 2022-10-20 17:59:45,524  INFO [TestNG-test=Test-1] MyLogger:64 - Started execution of Test case - test_CIMBDeals_scn0001
+ 2022-10-20 17:59:49,108  INFO [TestNG-test=Test-2] MyLogger:64 - Started execution of Test case - test_CIMBDeals_scn0001_02
+ 2022-10-20 18:01:34,102  INFO [TestNG-test=Test-1] MyLogger:64 - Started execution of Test case - test_CIMBDeals_scn0001
+ 2022-10-20 18:01:45,413  INFO [TestNG-test=Test-2] MyLogger:64 - Started execution of Test case - test_CIMBDeals_scn0001_02
+ 
